@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFEFB20A20E33831007BECCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFB20920E33831007BECCF /* AppDelegate.swift */; };
+		CFEFB20C20E33831007BECCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFB20B20E33831007BECCF /* ViewController.swift */; };
+		CFEFB20F20E33831007BECCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEFB20D20E33831007BECCF /* Main.storyboard */; };
+		CFEFB21120E33831007BECCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEFB21020E33831007BECCF /* Assets.xcassets */; };
+		CFEFB21420E33831007BECCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEFB21220E33831007BECCF /* LaunchScreen.storyboard */; };
+		CFEFB21F20E33832007BECCF /* YYTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFB21E20E33832007BECCF /* YYTableViewTests.swift */; };
+		CFEFB22A20E33832007BECCF /* YYTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFB22920E33832007BECCF /* YYTableViewUITests.swift */; };
+		CFEFB23A20E33C8B007BECCF /* CustomCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFB23920E33C8B007BECCF /* CustomCellController.swift */; };
+		CFEFB23D20E33CA2007BECCF /* NibCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFB23B20E33CA2007BECCF /* NibCellController.swift */; };
+		CFEFB24120E33CD0007BECCF /* NibTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFB23F20E33CD0007BECCF /* NibTableViewCell.swift */; };
+		CFEFB24220E33CD0007BECCF /* NibTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFEFB24020E33CD0007BECCF /* NibTableViewCell.xib */; };
+		CFEFB24420E33F3F007BECCF /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFB24320E33F3F007BECCF /* CustomTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFEFB21B20E33831007BECCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEFB1FE20E33831007BECCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEFB20520E33831007BECCF;
+			remoteInfo = YYTableView;
+		};
+		CFEFB22620E33832007BECCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEFB1FE20E33831007BECCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEFB20520E33831007BECCF;
+			remoteInfo = YYTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFEFB20620E33831007BECCF /* YYTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEFB20920E33831007BECCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFEFB20B20E33831007BECCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFEFB20E20E33831007BECCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFEFB21020E33831007BECCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFEFB21320E33831007BECCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFEFB21520E33831007BECCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEFB21A20E33831007BECCF /* YYTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEFB21E20E33832007BECCF /* YYTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYTableViewTests.swift; sourceTree = "<group>"; };
+		CFEFB22020E33832007BECCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEFB22520E33832007BECCF /* YYTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEFB22920E33832007BECCF /* YYTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYTableViewUITests.swift; sourceTree = "<group>"; };
+		CFEFB22B20E33832007BECCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEFB23920E33C8B007BECCF /* CustomCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellController.swift; sourceTree = "<group>"; };
+		CFEFB23B20E33CA2007BECCF /* NibCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibCellController.swift; sourceTree = "<group>"; };
+		CFEFB23F20E33CD0007BECCF /* NibTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibTableViewCell.swift; sourceTree = "<group>"; };
+		CFEFB24020E33CD0007BECCF /* NibTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NibTableViewCell.xib; sourceTree = "<group>"; };
+		CFEFB24320E33F3F007BECCF /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFEFB20320E33831007BECCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFB21720E33831007BECCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFB22220E33832007BECCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFEFB1FD20E33831007BECCF = {
+			isa = PBXGroup;
+			children = (
+				CFEFB20820E33831007BECCF /* YYTableView */,
+				CFEFB21D20E33831007BECCF /* YYTableViewTests */,
+				CFEFB22820E33832007BECCF /* YYTableViewUITests */,
+				CFEFB20720E33831007BECCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFEFB20720E33831007BECCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFB20620E33831007BECCF /* YYTableView.app */,
+				CFEFB21A20E33831007BECCF /* YYTableViewTests.xctest */,
+				CFEFB22520E33832007BECCF /* YYTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFEFB20820E33831007BECCF /* YYTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFB20920E33831007BECCF /* AppDelegate.swift */,
+				CFEFB20B20E33831007BECCF /* ViewController.swift */,
+				CFEFB23920E33C8B007BECCF /* CustomCellController.swift */,
+				CFEFB24320E33F3F007BECCF /* CustomTableViewCell.swift */,
+				CFEFB23B20E33CA2007BECCF /* NibCellController.swift */,
+				CFEFB23F20E33CD0007BECCF /* NibTableViewCell.swift */,
+				CFEFB24020E33CD0007BECCF /* NibTableViewCell.xib */,
+				CFEFB20D20E33831007BECCF /* Main.storyboard */,
+				CFEFB21020E33831007BECCF /* Assets.xcassets */,
+				CFEFB21220E33831007BECCF /* LaunchScreen.storyboard */,
+				CFEFB21520E33831007BECCF /* Info.plist */,
+			);
+			path = YYTableView;
+			sourceTree = "<group>";
+		};
+		CFEFB21D20E33831007BECCF /* YYTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFB21E20E33832007BECCF /* YYTableViewTests.swift */,
+				CFEFB22020E33832007BECCF /* Info.plist */,
+			);
+			path = YYTableViewTests;
+			sourceTree = "<group>";
+		};
+		CFEFB22820E33832007BECCF /* YYTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFB22920E33832007BECCF /* YYTableViewUITests.swift */,
+				CFEFB22B20E33832007BECCF /* Info.plist */,
+			);
+			path = YYTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFEFB20520E33831007BECCF /* YYTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEFB22E20E33832007BECCF /* Build configuration list for PBXNativeTarget "YYTableView" */;
+			buildPhases = (
+				CFEFB20220E33831007BECCF /* Sources */,
+				CFEFB20320E33831007BECCF /* Frameworks */,
+				CFEFB20420E33831007BECCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYTableView;
+			productName = YYTableView;
+			productReference = CFEFB20620E33831007BECCF /* YYTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFEFB21920E33831007BECCF /* YYTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEFB23120E33832007BECCF /* Build configuration list for PBXNativeTarget "YYTableViewTests" */;
+			buildPhases = (
+				CFEFB21620E33831007BECCF /* Sources */,
+				CFEFB21720E33831007BECCF /* Frameworks */,
+				CFEFB21820E33831007BECCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEFB21C20E33831007BECCF /* PBXTargetDependency */,
+			);
+			name = YYTableViewTests;
+			productName = YYTableViewTests;
+			productReference = CFEFB21A20E33831007BECCF /* YYTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFEFB22420E33832007BECCF /* YYTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEFB23420E33832007BECCF /* Build configuration list for PBXNativeTarget "YYTableViewUITests" */;
+			buildPhases = (
+				CFEFB22120E33832007BECCF /* Sources */,
+				CFEFB22220E33832007BECCF /* Frameworks */,
+				CFEFB22320E33832007BECCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEFB22720E33832007BECCF /* PBXTargetDependency */,
+			);
+			name = YYTableViewUITests;
+			productName = YYTableViewUITests;
+			productReference = CFEFB22520E33832007BECCF /* YYTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFEFB1FE20E33831007BECCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "知言网络";
+				TargetAttributes = {
+					CFEFB20520E33831007BECCF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CFEFB21920E33831007BECCF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFEFB20520E33831007BECCF;
+					};
+					CFEFB22420E33832007BECCF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFEFB20520E33831007BECCF;
+					};
+				};
+			};
+			buildConfigurationList = CFEFB20120E33831007BECCF /* Build configuration list for PBXProject "YYTableView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFEFB1FD20E33831007BECCF;
+			productRefGroup = CFEFB20720E33831007BECCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFEFB20520E33831007BECCF /* YYTableView */,
+				CFEFB21920E33831007BECCF /* YYTableViewTests */,
+				CFEFB22420E33832007BECCF /* YYTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFEFB20420E33831007BECCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEFB21420E33831007BECCF /* LaunchScreen.storyboard in Resources */,
+				CFEFB24220E33CD0007BECCF /* NibTableViewCell.xib in Resources */,
+				CFEFB21120E33831007BECCF /* Assets.xcassets in Resources */,
+				CFEFB20F20E33831007BECCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFB21820E33831007BECCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFB22320E33832007BECCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFEFB20220E33831007BECCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEFB24420E33F3F007BECCF /* CustomTableViewCell.swift in Sources */,
+				CFEFB20C20E33831007BECCF /* ViewController.swift in Sources */,
+				CFEFB20A20E33831007BECCF /* AppDelegate.swift in Sources */,
+				CFEFB23A20E33C8B007BECCF /* CustomCellController.swift in Sources */,
+				CFEFB24120E33CD0007BECCF /* NibTableViewCell.swift in Sources */,
+				CFEFB23D20E33CA2007BECCF /* NibCellController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFB21620E33831007BECCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEFB21F20E33832007BECCF /* YYTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFB22120E33832007BECCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEFB22A20E33832007BECCF /* YYTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFEFB21C20E33831007BECCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEFB20520E33831007BECCF /* YYTableView */;
+			targetProxy = CFEFB21B20E33831007BECCF /* PBXContainerItemProxy */;
+		};
+		CFEFB22720E33832007BECCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEFB20520E33831007BECCF /* YYTableView */;
+			targetProxy = CFEFB22620E33832007BECCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFEFB20D20E33831007BECCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFEFB20E20E33831007BECCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFEFB21220E33831007BECCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFEFB21320E33831007BECCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFEFB22C20E33832007BECCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFEFB22D20E33832007BECCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFEFB22F20E33832007BECCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyan.YYTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFEFB23020E33832007BECCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyan.YYTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFEFB23220E33832007BECCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyan.YYTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYTableView.app/YYTableView";
+			};
+			name = Debug;
+		};
+		CFEFB23320E33832007BECCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyan.YYTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYTableView.app/YYTableView";
+			};
+			name = Release;
+		};
+		CFEFB23520E33832007BECCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyan.YYTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YYTableView;
+			};
+			name = Debug;
+		};
+		CFEFB23620E33832007BECCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyan.YYTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YYTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFEFB20120E33831007BECCF /* Build configuration list for PBXProject "YYTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEFB22C20E33832007BECCF /* Debug */,
+				CFEFB22D20E33832007BECCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEFB22E20E33832007BECCF /* Build configuration list for PBXNativeTarget "YYTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEFB22F20E33832007BECCF /* Debug */,
+				CFEFB23020E33832007BECCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEFB23120E33832007BECCF /* Build configuration list for PBXNativeTarget "YYTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEFB23220E33832007BECCF /* Debug */,
+				CFEFB23320E33832007BECCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEFB23420E33832007BECCF /* Build configuration list for PBXNativeTarget "YYTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEFB23520E33832007BECCF /* Debug */,
+				CFEFB23620E33832007BECCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFEFB1FE20E33831007BECCF /* Project object */;
+}

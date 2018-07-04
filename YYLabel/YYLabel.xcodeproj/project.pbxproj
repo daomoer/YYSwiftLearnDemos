@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFBA65B020E1DA3A00890C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA65AF20E1DA3A00890C26 /* AppDelegate.swift */; };
+		CFBA65B220E1DA3A00890C26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA65B120E1DA3A00890C26 /* ViewController.swift */; };
+		CFBA65B520E1DA3A00890C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBA65B320E1DA3A00890C26 /* Main.storyboard */; };
+		CFBA65B720E1DA3A00890C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBA65B620E1DA3A00890C26 /* Assets.xcassets */; };
+		CFBA65BA20E1DA3A00890C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBA65B820E1DA3A00890C26 /* LaunchScreen.storyboard */; };
+		CFBA65C520E1DA3A00890C26 /* YYLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA65C420E1DA3A00890C26 /* YYLabelTests.swift */; };
+		CFBA65D020E1DA3A00890C26 /* YYLabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA65CF20E1DA3A00890C26 /* YYLabelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFBA65C120E1DA3A00890C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFBA65A420E1DA3A00890C26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFBA65AB20E1DA3A00890C26;
+			remoteInfo = YYLabel;
+		};
+		CFBA65CC20E1DA3A00890C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFBA65A420E1DA3A00890C26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFBA65AB20E1DA3A00890C26;
+			remoteInfo = YYLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFBA65AC20E1DA3A00890C26 /* YYLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBA65AF20E1DA3A00890C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFBA65B120E1DA3A00890C26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFBA65B420E1DA3A00890C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFBA65B620E1DA3A00890C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFBA65B920E1DA3A00890C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFBA65BB20E1DA3A00890C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFBA65C020E1DA3A00890C26 /* YYLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBA65C420E1DA3A00890C26 /* YYLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYLabelTests.swift; sourceTree = "<group>"; };
+		CFBA65C620E1DA3A00890C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFBA65CB20E1DA3A00890C26 /* YYLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBA65CF20E1DA3A00890C26 /* YYLabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYLabelUITests.swift; sourceTree = "<group>"; };
+		CFBA65D120E1DA3A00890C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFBA65A920E1DA3A00890C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBA65BD20E1DA3A00890C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBA65C820E1DA3A00890C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFBA65A320E1DA3A00890C26 = {
+			isa = PBXGroup;
+			children = (
+				CFBA65AE20E1DA3A00890C26 /* YYLabel */,
+				CFBA65C320E1DA3A00890C26 /* YYLabelTests */,
+				CFBA65CE20E1DA3A00890C26 /* YYLabelUITests */,
+				CFBA65AD20E1DA3A00890C26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFBA65AD20E1DA3A00890C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFBA65AC20E1DA3A00890C26 /* YYLabel.app */,
+				CFBA65C020E1DA3A00890C26 /* YYLabelTests.xctest */,
+				CFBA65CB20E1DA3A00890C26 /* YYLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFBA65AE20E1DA3A00890C26 /* YYLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CFBA65AF20E1DA3A00890C26 /* AppDelegate.swift */,
+				CFBA65B120E1DA3A00890C26 /* ViewController.swift */,
+				CFBA65B320E1DA3A00890C26 /* Main.storyboard */,
+				CFBA65B620E1DA3A00890C26 /* Assets.xcassets */,
+				CFBA65B820E1DA3A00890C26 /* LaunchScreen.storyboard */,
+				CFBA65BB20E1DA3A00890C26 /* Info.plist */,
+			);
+			path = YYLabel;
+			sourceTree = "<group>";
+		};
+		CFBA65C320E1DA3A00890C26 /* YYLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFBA65C420E1DA3A00890C26 /* YYLabelTests.swift */,
+				CFBA65C620E1DA3A00890C26 /* Info.plist */,
+			);
+			path = YYLabelTests;
+			sourceTree = "<group>";
+		};
+		CFBA65CE20E1DA3A00890C26 /* YYLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFBA65CF20E1DA3A00890C26 /* YYLabelUITests.swift */,
+				CFBA65D120E1DA3A00890C26 /* Info.plist */,
+			);
+			path = YYLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFBA65AB20E1DA3A00890C26 /* YYLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBA65D420E1DA3A00890C26 /* Build configuration list for PBXNativeTarget "YYLabel" */;
+			buildPhases = (
+				CFBA65A820E1DA3A00890C26 /* Sources */,
+				CFBA65A920E1DA3A00890C26 /* Frameworks */,
+				CFBA65AA20E1DA3A00890C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYLabel;
+			productName = YYLabel;
+			productReference = CFBA65AC20E1DA3A00890C26 /* YYLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFBA65BF20E1DA3A00890C26 /* YYLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBA65D720E1DA3A00890C26 /* Build configuration list for PBXNativeTarget "YYLabelTests" */;
+			buildPhases = (
+				CFBA65BC20E1DA3A00890C26 /* Sources */,
+				CFBA65BD20E1DA3A00890C26 /* Frameworks */,
+				CFBA65BE20E1DA3A00890C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFBA65C220E1DA3A00890C26 /* PBXTargetDependency */,
+			);
+			name = YYLabelTests;
+			productName = YYLabelTests;
+			productReference = CFBA65C020E1DA3A00890C26 /* YYLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFBA65CA20E1DA3A00890C26 /* YYLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBA65DA20E1DA3A00890C26 /* Build configuration list for PBXNativeTarget "YYLabelUITests" */;
+			buildPhases = (
+				CFBA65C720E1DA3A00890C26 /* Sources */,
+				CFBA65C820E1DA3A00890C26 /* Frameworks */,
+				CFBA65C920E1DA3A00890C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFBA65CD20E1DA3A00890C26 /* PBXTargetDependency */,
+			);
+			name = YYLabelUITests;
+			productName = YYLabelUITests;
+			productReference = CFBA65CB20E1DA3A00890C26 /* YYLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFBA65A420E1DA3A00890C26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "知言网络";
+				TargetAttributes = {
+					CFBA65AB20E1DA3A00890C26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CFBA65BF20E1DA3A00890C26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFBA65AB20E1DA3A00890C26;
+					};
+					CFBA65CA20E1DA3A00890C26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFBA65AB20E1DA3A00890C26;
+					};
+				};
+			};
+			buildConfigurationList = CFBA65A720E1DA3A00890C26 /* Build configuration list for PBXProject "YYLabel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFBA65A320E1DA3A00890C26;
+			productRefGroup = CFBA65AD20E1DA3A00890C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFBA65AB20E1DA3A00890C26 /* YYLabel */,
+				CFBA65BF20E1DA3A00890C26 /* YYLabelTests */,
+				CFBA65CA20E1DA3A00890C26 /* YYLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFBA65AA20E1DA3A00890C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBA65BA20E1DA3A00890C26 /* LaunchScreen.storyboard in Resources */,
+				CFBA65B720E1DA3A00890C26 /* Assets.xcassets in Resources */,
+				CFBA65B520E1DA3A00890C26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBA65BE20E1DA3A00890C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBA65C920E1DA3A00890C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFBA65A820E1DA3A00890C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBA65B220E1DA3A00890C26 /* ViewController.swift in Sources */,
+				CFBA65B020E1DA3A00890C26 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBA65BC20E1DA3A00890C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBA65C520E1DA3A00890C26 /* YYLabelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBA65C720E1DA3A00890C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBA65D020E1DA3A00890C26 /* YYLabelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFBA65C220E1DA3A00890C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFBA65AB20E1DA3A00890C26 /* YYLabel */;
+			targetProxy = CFBA65C120E1DA3A00890C26 /* PBXContainerItemProxy */;
+		};
+		CFBA65CD20E1DA3A00890C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFBA65AB20E1DA3A00890C26 /* YYLabel */;
+			targetProxy = CFBA65CC20E1DA3A00890C26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFBA65B320E1DA3A00890C26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBA65B420E1DA3A00890C26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFBA65B820E1DA3A00890C26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBA65B920E1DA3A00890C26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFBA65D220E1DA3A00890C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFBA65D320E1DA3A00890C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFBA65D520E1DA3A00890C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyan.YYLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFBA65D620E1DA3A00890C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyan.YYLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFBA65D820E1DA3A00890C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyan.YYLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYLabel.app/YYLabel";
+			};
+			name = Debug;
+		};
+		CFBA65D920E1DA3A00890C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyan.YYLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYLabel.app/YYLabel";
+			};
+			name = Release;
+		};
+		CFBA65DB20E1DA3A00890C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyan.YYLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YYLabel;
+			};
+			name = Debug;
+		};
+		CFBA65DC20E1DA3A00890C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyan.YYLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YYLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFBA65A720E1DA3A00890C26 /* Build configuration list for PBXProject "YYLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBA65D220E1DA3A00890C26 /* Debug */,
+				CFBA65D320E1DA3A00890C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBA65D420E1DA3A00890C26 /* Build configuration list for PBXNativeTarget "YYLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBA65D520E1DA3A00890C26 /* Debug */,
+				CFBA65D620E1DA3A00890C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBA65D720E1DA3A00890C26 /* Build configuration list for PBXNativeTarget "YYLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBA65D820E1DA3A00890C26 /* Debug */,
+				CFBA65D920E1DA3A00890C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBA65DA20E1DA3A00890C26 /* Build configuration list for PBXNativeTarget "YYLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBA65DB20E1DA3A00890C26 /* Debug */,
+				CFBA65DC20E1DA3A00890C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFBA65A420E1DA3A00890C26 /* Project object */;
+}
