@@ -21,10 +21,7 @@ class ViewController: UIViewController ,WKUIDelegate, WKNavigationDelegate{
         webView.load(URLRequest.init(url: URL.init(string: "https://www.baidu.com")!))
         
         // 属性设置
-        
-    
-        
-        
+  
     }
     
     // 处理在接收到响应之后决定是否进行跳转
