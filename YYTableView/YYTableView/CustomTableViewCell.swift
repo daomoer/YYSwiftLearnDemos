@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+// 自定义cell
 class CustomTableViewCell: UITableViewCell {
     var iconImage     : UIImageView?
     var titleLabel    : UILabel?
